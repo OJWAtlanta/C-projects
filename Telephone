@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+
+
+int main(){
+	int areacode,firsthree,lastfour;
+	printf("Enter a telephone number in the form of (xxx) xxx-xxxx ");
+	scanf("(%d)%d-%d", &areacode, &firsthree, &lastfour);
+	printf("you entered %d.%d.%d\n", areacode, firsthree, lastfour);
+
+
+
+
+
+return 0;
+}
