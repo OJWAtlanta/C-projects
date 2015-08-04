@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int number, splitter1, splitter2;
+
+    printf("\nEnter a number with two digits: ");
+    scanf("%d", &number);
+
+    splitter1 = number % 10;
+    splitter2 = number / 10;   
+
+    printf("The reversal is %d%d\n", splitter1, splitter2);
+return 0;
+}
